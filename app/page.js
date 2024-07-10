@@ -1,8 +1,8 @@
 import Banner from "./components/Banner";
 import BusinessCard from "./components/BusinessCard";
 import CallNow from "./components/CallNow";
-import Gallery from "./components/Gallery";
 import HeroSection from "./components/HeroSection";
+import Project from "./components/Project";
 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
     <HeroSection/>
     <BusinessCard/>
     <CallNow/>
-    <Gallery/>
+   <Project/>
    </main>
   );
 }
