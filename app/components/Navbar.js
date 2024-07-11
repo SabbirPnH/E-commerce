@@ -6,7 +6,7 @@ import logo from '../../public/img/shopping-logo-ecommerce-logotype-shooping-260
 import { AiFillFacebook } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
-
+import '../../app/globals.css';
 export default function Navbar() {
   const toggleOpenRef = useRef(null);
   const toggleCloseRef = useRef(null);
@@ -23,10 +23,11 @@ export default function Navbar() {
     };
 
     const handleScroll = () => {
+      const navbar = navbarRef.current;
       if (window.scrollY > 0) {
-        navbarRef.current.classList.add('sticky-navbar');
+        navbar.classList.add('sticky-navbar');
       } else {
-        navbarRef.current.classList.remove('sticky-navbar');
+        navbar.classList.remove('sticky-navbar');
       }
     };
 
@@ -48,6 +49,7 @@ export default function Navbar() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
 
   return (
     <main> 
@@ -77,7 +79,7 @@ export default function Navbar() {
       <FaWhatsappSquare className='text-[20px] cursor-pointer' />
       </div>
     </section>
-        <header ref={navbarRef} className="flex justify-between border-b py-4 px-4 sm:px-20 bg-white font-sans min-h-[70px] tracking-wide relative z-50">
+        <header ref={navbarRef} className="navbar flex justify-between border-b py-4 px-4 sm:px-20 bg-slate-50 font-sans min-h-[70px] tracking-wide relative z-50">
             
           <div className="flex items-center">
             <Link href={'/'}>
@@ -199,3 +201,7 @@ export default function Navbar() {
     </main>
   );
 }
+
+
+
+

@@ -1,19 +1,46 @@
+'use client'
 import React from 'react'
-
+import '../../app/globals.css';
+import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
 export default function Banner() {
   return (
-    <div class="bg-[#182b50] px-20 font-[sans-serif]">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 justify-center items-center gap-4">
-      <div class="text-center md:text-left">
-        <h2 class="text-4xl lg:text-5xl font-extrabold text-white mb-6 md:!leading-[55px]">Unlock Premium Features</h2>
-        <p class="text-lg lg:text-xl text-white mb-8">Upgrade to our premium plan and supercharge your experience. Don&apost miss out!</p>
-        <a href="#" class="bg-[#a91079] hover:bg-opacity-80 text-white py-3 px-10 rounded-full text-lg lg:text-xl font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl inline-block">
-          Upgrade Now
+    <div className="bg-[#182b50] px-5 sm:px-20 py-5 font-[sans-serif]">
+    <div className="max-w-6xl mx-auto grid md:grid-cols-2 justify-center items-center gap-4">
+      <div className="text-center md:text-left">
+        <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-6 md:!leading-[55px] tracking-widest ">ECOMMERCE WEBSITE DEVELOPMENT</h2>
+        <p className="text-lg lg:text-[16px] text-white mb-8">Reach more customers with our fast-selling <span className='text-[#E9FF97]'>E-Commerce Website Development</span></p>
+        <a href="#" className="text-[#E9FF97]  text-lg lg:text-2xl font-semibold ease-in-out transform  inline-block">
+        AN ALL-IN-ONE
+        <TypeAnimation
+  sequence={[
+    
+    '  ONLINE PLATFORM!! ',
+    1000,
+    ' SOLUTION',
+    1000,
+    ' ONLINE PLATFORM!!',
+    1000,
+    ' SOLUTION',
+    1000,
+  ]}
+  speed={20}
+  style={{ fontSize: '1em', color: '#A7E6FF' }}
+  repeat={Infinity}
+/>
         </a>
       </div>
-      <div class="text-center">
-        <img src="https://readymadeui.com/feature-img.webp" alt="Premium Benefits" class="w-11/12 mx-auto" />
+      <div className="text-center animate-bounce-custom">
+      <div className="w-11/12 mx-auto">
+        <Image
+          src="https://readymadeui.com/feature-img.webp"
+          alt="Premium Benefits"
+          width={600} 
+          height={400} 
+          className="object-cover rounded-lg" 
+        />
       </div>
+    </div>
     </div>
   </div>
   )
