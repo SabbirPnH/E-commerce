@@ -7,7 +7,7 @@ import '../globals.css'
 export default function Banner() {
   return (
     <div className="bg-[#182b50] px-5 sm:px-20 py-5 font-[sans-serif]">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 justify-center items-center gap-4">
+      <div className="max-w-9xl mx-auto grid md:grid-cols-2 justify-center items-center gap-4">
         <div className="text-center md:text-left">
           <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-6 md:!leading-[55px] tracking-widest">
             ECOMMERCE WEBSITE DEVELOPMENT

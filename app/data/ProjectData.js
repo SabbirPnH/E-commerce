@@ -9,21 +9,21 @@ const data = [
     {
       id: 2,
       name: "Multi-Currency",
-      description: "Expand your business by Mediasoft’s eCommerce website, Meet the needs of your global customers by accepting payments in multiple currencies around the world, and also offer your local payment methods by the gateway of your choice.",
+      description: "Expand your business by PnH eCommerce website, Meet the needs of your global customers by accepting payments in multiple currencies around the world, and also offer your local payment methods by the gateway of your choice.",
       imageUrl: "/img/exchanging.png",
       profileUrl: "#"
     },
     {
       id: 3,
       name: "Secure",
-      description: "Mediasoft's eCommerce development system offers a reliable, secure solution for your eCommerce website. Secure Socket Layer (SSL) is the most commonly used technology for secure online transactions. All types of Credit card, order data & insights report is SSL encrypted and secure. Upload, edit, log, add comments, track & share files quickly & securely with us.",
+      description: "PnH eCommerce development system offers a reliable, secure solution for your eCommerce website. Secure Socket Layer (SSL) is the most commonly used technology for secure online transactions. All types of Credit card, order data & insights report is SSL encrypted and secure. Upload, edit, log, add comments, track & share files quickly & securely with us.",
       imageUrl: "/img/security.png",
       profileUrl: "#"
     },
     {
       id: 4,
       name: "Crazy-Easy",
-      description: "Mediasoft’s eCommerce applications are super easy to use. Our Intuitive and thoughtful design makes your site classic, simple to use with avoiding difficult functionality. Our agile supporters provide 24/7 support service if you face any trouble.",
+      description: "PnH eCommerce applications are super easy to use. Our Intuitive and thoughtful design makes your site classic, simple to use with avoiding difficult functionality. Our agile supporters provide 24/7 support service if you face any trouble.",
       imageUrl: "/img/easy.png",
       profileUrl: "#"
     },
