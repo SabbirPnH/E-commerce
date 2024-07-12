@@ -1,8 +1,8 @@
-'use client';
-import React from 'react';
-import Image from 'next/image';
-import { TypeAnimation } from 'react-type-animation';
-import '../globals.css'
+"use client";
+import React from "react";
+import Image from "next/image";
+import { TypeAnimation } from "react-type-animation";
+import "../globals.css";
 
 export default function Banner() {
   return (
@@ -13,23 +13,29 @@ export default function Banner() {
             ECOMMERCE WEBSITE DEVELOPMENT
           </h2>
           <p className="text-lg lg:text-[16px] text-white mb-8">
-            Reach more customers with our fast-selling <span className='text-[#E9FF97]'>E-Commerce Website Development</span>
+            Reach more customers with our fast-selling{" "}
+            <span className="text-[#E9FF97]">
+              E-Commerce Website Development
+            </span>
           </p>
-          <a href="#" className="text-[#E9FF97] text-lg lg:text-2xl font-semibold ease-in-out transform inline-block">
+          <a
+            href="#"
+            className="text-[#E9FF97] text-lg lg:text-2xl font-semibold ease-in-out transform inline-block"
+          >
             AN ALL-IN-ONE
             <TypeAnimation
               sequence={[
-                '  ONLINE PLATFORM!! ',
+                "  ONLINE PLATFORM!! ",
                 1000,
-                ' SOLUTION',
+                " SOLUTION",
                 1000,
-                ' ONLINE PLATFORM!!',
+                " ONLINE PLATFORM!!",
                 1000,
-                ' SOLUTION',
+                " SOLUTION",
                 1000,
               ]}
               speed={20}
-              style={{ fontSize: '1em', color: '#A7E6FF' }}
+              style={{ fontSize: "1em", color: "#A7E6FF" }}
               repeat={Infinity}
             />
           </a>
