@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../app/globals.css'
 import AboutContent from '../components/AboutContent';
+import AboutCard from '../components/AboutCard';
+import AboutSale from '../components/AboutSale';
+import AboutBorderCard from '../components/AboutBorderCard';
 const AboutUs = () => {
     return (
        <div>
@@ -14,6 +17,10 @@ const AboutUs = () => {
             </div>
         </div>
         <AboutContent/>
+        <AboutCard/>
+        <AboutBorderCard/>
+        <AboutSale/>
+
        </div>
     );
 };
