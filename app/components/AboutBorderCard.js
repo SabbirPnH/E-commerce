@@ -6,7 +6,7 @@ export default function AboutBorderCard() {
         <div className="grid  lg:grid-cols-3 gap-7 py-5 sm:py-10 px-5 sm:px-20 bg-slate-50">
             {
                 data.map((item, id) => (
-                    <div>
+                    <div key={id}>
                         <div
                             key={id}
                             className="relative block overflow-hidden rounded-lg border border-gray-200 p-4 sm:p-6      lg:p-8 h-48"
