@@ -59,7 +59,7 @@
 
 
 
-
+'use client'
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -95,14 +95,14 @@ const ClientCrousel=()=>{
       modules={[Autoplay, Pagination]}
       className="mySwiper py-10"
     >
-      {images.map((img, i) => (
-        <SwiperSlide key={i}>
-          <Image
+      {images.map((img, index) => (
+        <SwiperSlide key={index}>
+          <Image 
             src={img}
-            alt={`Client Logo ${i + 1}`}
+            alt=''
             width={100}
             height={100}
-            className="object-cover sm:px-4"
+            className="object-cover sm:px-4 "
           />
         </SwiperSlide>
       ))}

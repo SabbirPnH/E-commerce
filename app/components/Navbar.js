@@ -167,7 +167,7 @@ export default function Navbar() {
                 </li>
                 <li className="group max-lg:border-b max-lg:py-3 relative">
                   <Link
-                    href={"#"}
+                    href={"/service"}
                     className="hover:text-[#1d294f] uppercase text-gray-600 text-[15px] font-bold lg:hover:fill-[#1d294f] block from-after"
                   >
                     Service
