@@ -61,3 +61,62 @@
 .bg-custom {
   background-image: url('https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_1280.jpg');
 }
+
+
+
+
+
+/* about client slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  
+  object-fit: cover;
+}
+.mySwiper .swiper-button-prev::after,
+.mySwiper .swiper-button-next::after {
+  font-size: 1.5rem; 
+}
+.mySwiper .swiper-pagination-bullet {
+  background-color: #182b50; 
+}
+
+
+
+/* devider icon */
+.hr-icon {
+  height: 5px;
+  width: 70px;
+  background: #182b50;
+  border-radius: 2px;
+  position: relative;
+  margin-left: 20px;
+  left: 0;
+  display: inline-block;
+ 
+}
+.hr-icon::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #182b50;
+  box-shadow: 9px 0 0 0 #182b50, 18px 0 0 0 #182b50;
+}

@@ -4,6 +4,11 @@ import AboutContent from '../components/AboutContent';
 import AboutCard from '../components/AboutCard';
 import AboutSale from '../components/AboutSale';
 import AboutBorderCard from '../components/AboutBorderCard';
+import ClientCrousel from '../components/ClientCrousel';
+import AboutApplication from '../components/AboutApplication';
+
+
+
 const AboutUs = () => {
     return (
        <div>
@@ -20,7 +25,8 @@ const AboutUs = () => {
         <AboutCard/>
         <AboutBorderCard/>
         <AboutSale/>
-
+        <ClientCrousel/>
+        <AboutApplication/>
        </div>
     );
 };
