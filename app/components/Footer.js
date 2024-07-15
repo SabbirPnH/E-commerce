@@ -3,7 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 const Footer = () => {
   return (
-    <section className="pt-7 sm:pt-16 pb-7 bg-black">
+   <div>
+     <Image
+              src="/img/footer-bg-1536x121.png"
+              alt="Shopping Logo"
+              width={900}
+              height={400}
+              className="object-cover w-full rounded-lg"
+            />
+     <section className="pt-7 sm:pt-16 pb-7 bg-[#181818]">
       <div className="mx-auto max-w-9xl px-5 sm:px-20">
         <div className="grid grid-cols-1 max-lg:gap-10 lg:grid-cols-12 lg:divide-x-2 divide-gray-200 pb-10 lg:pb-14 border-b-2 border-gray-200">
           <div className="lg:col-span-7 pr-9 xl:pr-16">
@@ -346,6 +354,7 @@ const Footer = () => {
         </div>
       </div>
     </section>
+   </div>
   );
 };
 export default Footer;
