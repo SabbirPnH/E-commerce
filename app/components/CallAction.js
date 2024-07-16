@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function CallAction() {
@@ -10,8 +11,8 @@ export default function CallAction() {
               Ready For The Next Step?
             </p>
           </div>
-          <a
-            href="#"
+          <Link
+            href={'/contact'}
             className="flex items-center gap-2 bg-white rounded-full shadow-sm sm:text-lg text-[#8cdaf8] sm:font-semibold py-4 px-6 sm:px-8 transition-all duration-500"
           >
             We,re there to Help you
@@ -30,7 +31,7 @@ export default function CallAction() {
                 stroke-linejoin="round"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

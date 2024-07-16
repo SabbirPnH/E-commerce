@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function AboutSale() {
   return (
     <div className="py-5 bg-[#daf2fc]">
@@ -11,10 +11,14 @@ export default function AboutSale() {
       </p>
       <div className="flex gap-5 px-5 sm:px-20 pt-5">
         <button class="relative  flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-[#E9FF97] shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#E9FF97] hover:text-black  before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+          <Link href={'/contact'}>
           <span class="relative  z-10">CONTACT US</span>
+          </Link>
         </button>
         <button class="relative  flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-[#E9FF97] shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#E9FF97] hover:text-black  before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+          <Link href={'/service'}>
           <span class="relative  z-10">SERVICES</span>
+          </Link>
         </button>
       </div>
     </div>

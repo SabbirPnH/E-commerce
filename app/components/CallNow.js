@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function CallNow() {
@@ -16,9 +17,11 @@ export default function CallNow() {
         with secure payment integration and shipment configuration.
       </p>
       <div className="flex justify-center pt-5">
-        <button class="relative  flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-[#E9FF97] shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#E9FF97] hover:text-black  before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
-          <span class="relative  z-10">CONTACT US</span>
+       <Link href={'/service'}>
+       <button class="relative  flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-[#E9FF97] shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#E9FF97] hover:text-black  before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+          <span class="relative  z-10">READ MORE</span>
         </button>
+       </Link>
       </div>
     </div>
   );

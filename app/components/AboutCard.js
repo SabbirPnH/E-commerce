@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const AboutCard = () => {
   return (
     <section className=" bg-[##FFFFFF] px-5 sm:px-20 light pb-4 pt-6 sm:py-8 md:pt-14  dark:bg-[#0b1727] text-zinc-900 dark:text-white flex items-center overflow-hidden">
@@ -15,7 +15,9 @@ const AboutCard = () => {
               </p>
               <div className=" pt-5">
         <button class="relative  flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-[#E9FF97] shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-[#E9FF97] hover:text-black  before:duration-500 before:ease-out  hover:before:h-56 hover:before:w-56">
+          <Link href={'/contact'}>
           <span class="relative  z-10">CONTACT NOW</span>
+          </Link>
         </button>
       </div>
             </div>
