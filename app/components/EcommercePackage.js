@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdCheckmark } from "react-icons/io";
 import Devider from "./Devider";
+import Link from "next/link";
 const EcommercePackage = () => {
   return (
     <div>
@@ -46,14 +47,16 @@ const EcommercePackage = () => {
                   <p>Technology: Woocommerce</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+             <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -92,14 +95,16 @@ const EcommercePackage = () => {
                   <p> Technology: Woocommerce/PHP</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+              <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -138,14 +143,16 @@ const EcommercePackage = () => {
                   <p> Technology: PHP/Laravel</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+              <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -184,14 +191,16 @@ const EcommercePackage = () => {
                   <p>Technology: Laravel/Next js/ Vuejs</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+              <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -230,14 +239,16 @@ const EcommercePackage = () => {
                   <p> Technology: Laravel/Next js/ Vuejs</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+              <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -273,14 +284,16 @@ const EcommercePackage = () => {
                   <p> Technology: PHP/Laravel</p>
                 </div>
               </div>
-              <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
+              <Link href={'/package'}>
+             <h2 className="text-center font-bold my-2 border-t border-b cursor-pointer py-2">
                 Read More
               </h2>
+             </Link>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

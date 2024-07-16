@@ -6,7 +6,7 @@ export default function Features() {
     <div className="bg-teal-50 py-10 mb-8">
       <div className="pb-8">
         <h1 className="text-[22px] sm:text-[32px] text-center ">
-          Ecoomerce Website Features
+          Ecommerce Website Features
         </h1>
         <div className="flex justify-center">
           <Devider />

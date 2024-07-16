@@ -82,32 +82,32 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-center max-lg:justify-between gap-8 lg:gap-12 pt-14">
               <div className="block">
                 <h6 className="text-lg font-medium text-[#A7E6FF] mb-7 max-md:text-center">
-                  Pagedone
+                  Pages
                 </h6>
                 <ul className="flex flex-col max-md:items-center gap-6">
                   <li>
-                    <a
-                      href="javascritp:;"
+                    <Link
+                      href={'/'}
                       className="text-base font-normal text-gray-600 max-md:text-center transition-all duration-300 hover:text-[#A7E6FF] focus-within:outline-0 focus-within:text-[#A7E6FF]"
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="javascritp:;"
+                    <Link
+                      href={'/about'}
                       className="text-base font-normal text-gray-600 max-md:text-center transition-all duration-300 hover:text-[#A7E6FF] focus-within:outline-0 focus-within:text-[#A7E6FF]"
                     >
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="javascritp:;"
+                    <Link
+                      href={'/service'}
                       className="text-base font-normal text-gray-600 max-md:text-center transition-all duration-300 hover:text-[#A7E6FF] focus-within:outline-0 focus-within:text-[#A7E6FF]"
                     >
                       Service
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
