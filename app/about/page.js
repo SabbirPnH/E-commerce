@@ -27,6 +27,7 @@ const AboutUs = () => {
         <AboutSale/>
         <ClientCrousel/>
         <AboutApplication/>
+        
        </div>
     );
 };

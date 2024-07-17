@@ -52,9 +52,9 @@ export default function Navbar() {
 
   return (
     <main>
-      <section class="bg-[#182B50] min-h-[40px] px-4 py-2 sm:px-20 flex items-center max-sm:flex-col">
+      <section className="bg-[#182B50] min-h-[40px] px-4 py-2 sm:px-20 flex items-center max-sm:flex-col">
         <Link href={"tel:+88018730033"}>
-          <button type="button" class="text-white text-sm">
+          <button type="button" className="text-white text-sm">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16px"
@@ -195,7 +195,7 @@ export default function Navbar() {
                 </li>
                 <li className="group max-lg:border-b max-lg:py-3 relative">
                   <Link
-                    href={"#"}
+                    href={"/portfolio"}
                     className="hover:text-[#1d294f] uppercase text-gray-600 text-[15px] font-bold lg:hover:fill-[#1d294f] block from-after"
                   >
                     Portfolio
