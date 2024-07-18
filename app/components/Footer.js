@@ -74,7 +74,7 @@ const Footer = () => {
                     />
                   </svg>
                   <p className="text-base font-normal text-gray-400 select-all cursor-pointer">
-                    pnh@bd.com
+                    info@pnhbd.com
                   </p>
                 </div>
               </Link>
@@ -110,20 +110,20 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="javascritp:;"
+                    <Link
+                      href={'/portfolio'}
                       className="text-base font-normal text-gray-600 max-md:text-center transition-all duration-300 hover:text-[#A7E6FF] focus-within:outline-0 focus-within:text-[#A7E6FF]"
                     >
                       Protfolio
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="javascritp:;"
+                    <Link
+                      href={'/contact'}
                       className="text-base font-normal text-gray-600 max-md:text-center transition-all duration-300 hover:text-[#A7E6FF] focus-within:outline-0 focus-within:text-[#A7E6FF]"
                     >
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -263,7 +263,7 @@ const Footer = () => {
                 type="text"
                 id="default-search"
                 className="block w-full md:max-w-xs pr-4 pl-12 py-2.5 text-base font-normal shadow-xs text-white bg-transparent border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none leading-relaxed"
-                placeholder="ecommerce@pnhbd.com"
+                placeholder="info@pnhbd.com"
               />
             </div>
             <button className="py-2.5 px-7 max-md:w-full max-md:text-center rounded-sm max-md:mx-auto flex items-center justify-center bg-[#A7E6FF] text-base font-semibold text-black mb-8 transition-all duration-500 hover:bg-[#182b50] hover:text-white ">

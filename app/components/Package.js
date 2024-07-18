@@ -3,6 +3,7 @@ import { IoMdCheckmark } from "react-icons/io";
 import { FaMinusSquare } from "react-icons/fa";
 import { FaStar } from "react-icons/fa6";
 import Devider from "./Devider";
+import Link from "next/link";
 const Package = () => {
   return (
     <div>
@@ -87,9 +88,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+            <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -167,9 +168,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+            <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -247,9 +248,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+            <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -327,9 +328,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+            <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -407,9 +408,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+            <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -485,9 +486,9 @@ const Package = () => {
               </div>
             </div>
             <div className="mt-4">
-              <a href="" className="  font-bold pt-2 px-4 ">
+              <Link href={'/contact'} className="  font-bold pt-2 px-4 ">
                 Apply Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

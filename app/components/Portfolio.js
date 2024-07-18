@@ -1,39 +1,60 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faLink } from '@fortawesome/free-solid-svg-icons';
-import "../globals.css";  // Assuming this file contains global styles
+import {  faLink } from '@fortawesome/free-solid-svg-icons';
+import Image from "next/image";
+import Devider from "../components/Devider";
+import Link from "next/link";
+import "../globals.css";  
 
 const PortfolioCard = () => {
     return (
-        <div className="portfolio-card-container px-5 sm:px-20">
-            <h3 className="text-center">portfolio</h3>
+        <div className="portfolio-card-container px-5 pb-5 sm:px-20">
+            <h3 className="text-center text-[22px] sm:text-[32px] pt-4 font-semibold">Portfolio</h3>
+            <div className='text-center'><Devider /></div>
             <div className="row mt-40 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div className="">
                     <div className="box1">
-                        <img className="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="Avatar 1" />
-                        <h3 className="title ">project title</h3>
+                    <Image
+              src="/img/Screenshot_4.png"
+              alt="Shopping Logo"
+              width={600}
+              height={200}
+              className="object-cover  cursor-pointer "
+            />
+                        <h3 className="title ">picnpick</h3>
                         <ul className="icon">
-                            <li><a href="#"><FontAwesomeIcon icon={faSearch} className="text-white" /></a></li>
+                            <li><Link href={'https://www.picnpick.com/'} target='_blank'><FontAwesomeIcon icon={faLink} className="text-white" /></Link></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="">
+                    <div className="box1">
+                    <Image
+              src="/img/feature-img.png"
+              alt="Shopping Logo"
+              width={600}
+              height={400}
+              className="object-cover cursor-pointer "
+            />
+                        <h3 className="title">project title</h3>
+                        <ul className="icon">
+                            
                             <li><a href="#"><FontAwesomeIcon icon={faLink} className="text-white" /></a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="">
                     <div className="box1">
-                        <img className="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar4.png" alt="Avatar 2" />
+                    <Image
+              src="/img/feature-img.png"
+              alt="Shopping Logo"
+              width={600}
+              height={400}
+              className="object-cover cursor-pointer "
+            />
                         <h3 className="title">project title</h3>
                         <ul className="icon">
-                            <li><a href="#"><FontAwesomeIcon icon={faSearch} className="text-white" /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={faLink} className="text-white" /></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="">
-                    <div className="box1">
-                        <img className="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar5.png" alt="Avatar 3" />
-                        <h3 className="title">project title</h3>
-                        <ul className="icon">
-                            <li><a href="#"><FontAwesomeIcon icon={faSearch} className="text-white" /></a></li>
+                           
                             <li><a href="#"><FontAwesomeIcon icon={faLink} className="text-white" /></a></li>
                         </ul>
                     </div>
