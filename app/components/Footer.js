@@ -263,7 +263,7 @@ const Footer = () => {
                 type="text"
                 id="default-search"
                 className="block w-full md:max-w-xs pr-4 pl-12 py-2.5 text-base font-normal shadow-xs text-white bg-transparent border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none leading-relaxed"
-                placeholder="info@pnhbd.com"
+                placeholder="Enter your mail"
               />
             </div>
             <button className="py-2.5 px-7 max-md:w-full max-md:text-center rounded-sm max-md:mx-auto flex items-center justify-center bg-[#A7E6FF] text-base font-semibold text-black mb-8 transition-all duration-500 hover:bg-[#182b50] hover:text-white ">

@@ -14,13 +14,15 @@ const PortfolioCard = () => {
             <div className="row mt-40 grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div className="">
                     <div className="box1">
-                    <Image
-              src="/img/Screenshot_4.png"
-              alt="Shopping Logo"
-              width={600}
-              height={200}
-              className="object-cover  cursor-pointer "
-            />
+                        <div className='h-80 lg:h-96'>
+                        <Image
+                        src="/img/Screenshot_9.png"
+                        alt="Shopping Logo"
+                        width={600}
+                        height={200}
+                        className="object-cover  cursor-pointer "
+                        />
+                        </div>
                         <h3 className="title ">picnpick</h3>
                         <ul className="icon">
                             <li><Link href={'https://www.picnpick.com/'} target='_blank'><FontAwesomeIcon icon={faLink} className="text-white" /></Link></li>
@@ -29,13 +31,15 @@ const PortfolioCard = () => {
                 </div>
                 <div className="">
                     <div className="box1">
+                    <div className='h-80 lg:h-96'>
                     <Image
               src="/img/feature-img.png"
               alt="Shopping Logo"
               width={600}
-              height={400}
+              height={200}
               className="object-cover cursor-pointer "
             />
+                    </div>
                         <h3 className="title">project title</h3>
                         <ul className="icon">
                             
@@ -45,17 +49,19 @@ const PortfolioCard = () => {
                 </div>
                 <div className="">
                     <div className="box1">
+                    <div className='h-80 lg:h-96'>
                     <Image
-              src="/img/feature-img.png"
+              src="/img/Screenshot_4.png"
               alt="Shopping Logo"
               width={600}
-              height={400}
+              height={200}
               className="object-cover cursor-pointer "
             />
-                        <h3 className="title">project title</h3>
+                    </div>
+                        <h3 className="title"> Easy Sale BD</h3>
                         <ul className="icon">
                            
-                            <li><a href="#"><FontAwesomeIcon icon={faLink} className="text-white" /></a></li>
+                            <li><Link href={'https://easysalebd.com/'} target='_blank'><FontAwesomeIcon icon={faLink} className="text-white" /></Link></li>
                         </ul>
                     </div>
                 </div>
