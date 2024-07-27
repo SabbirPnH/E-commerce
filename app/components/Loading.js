@@ -1,11 +1,22 @@
-'use client'
-import { Commet } from "react-loading-indicators";
+import React from 'react';
+import { RotatingLines } from "react-loading-indicators";
 
-const Loading =()=>{
-return(
-    <div className="flex justify-center items-center py-24">
-        <Commet color="#F68921" size="medium" text="" textColor="" />
-    </div>
-)
+const Loading = () => {
+    return (
+        <div className="flex justify-center items-center py-24">
+            <RotatingLines
+                visible={true}
+                height={96}
+                width={96}
+                color="grey"
+                strokeWidth={5}
+                animationDuration={0.75}
+                ariaLabel="rotating-lines-loading"
+                wrapperStyle={{}}
+                wrapperClass=""
+            />
+        </div>
+    );
 }
-export default Loading;
+
+export default Loading; // Make sure to export the component like this

@@ -10,12 +10,13 @@ import Devider from '../components/Devider';
 
 const ClientCrousel=()=>{
   const images = [
-    '/img/client (1).png',
-    '/img/client (2).png',
-    '/img/client (3).png',
-    '/img/client (4).png',
-    '/img/client (5).png',
-    '/img/client (6).png',
+    '/img/client (7).png',
+    '/img/client (8).png',
+    '/img/client (9).png',
+    '/img/client (10).png',
+    '/img/client (11).png',
+    '/img/client (12).png',
+    '/img/client (13).png',
   ];
   return(
     <div className='px-5 sm:px-20'>
@@ -40,8 +41,8 @@ const ClientCrousel=()=>{
           <Image 
             src={img}
             alt=''
-            width={100}
-            height={100}
+            width={150}
+            height={150}
             className="object-cover sm:px-4 "
           />
         </SwiperSlide>
