@@ -27,7 +27,7 @@ const PortfolioItms = ({ items }) => {
 				<Link href={link}>
                 <div className="  flex gap-4 items-center py-2 px-5 ">
                 <button className=" text-white sm:text-[#182b50] cursor-pointer"> Visit Now</button>
-                <IoIosReturnRight className="text-2xl cursor-pointer text-[#182b50]" />
+                <IoIosReturnRight className="text-2xl cursor-pointer text-white sm:text-[#182b50]" />
 				</div>	
                 </Link>
 				
