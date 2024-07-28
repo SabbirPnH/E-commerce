@@ -3,7 +3,7 @@ import Devider from '../components/Devider';
 import { IoIosCheckmarkCircle } from "react-icons/io";
 const ServiceWork=()=>{
     return(
-        <div className=" pb-5 sm:py-10  px-5 sm:px-20 dark:bg-gray-800">
+        <div className=" pb-5 sm:py-10  px-5 sm:px-20 ">
 
     <div className=" lg:grid lg:grid-cols-2 lg:gap-8">
       <div>

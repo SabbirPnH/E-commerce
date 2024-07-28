@@ -44,7 +44,7 @@ const PortfolioItms = ({ items }) => {
 
 const PortfolioCard = () => {
 	return (
-		<section className="ezy__blog6 light pt-5 md:py-16 text-stone-800 bg-white dark:bg-[#0b1727] dark:text-white overflow-hidden">
+		<section className="ezy__blog6 light pt-5 md:py-16 text-stone-800 bg-white  dark:text-white overflow-hidden">
             <h3 className="text-center text-[22px] sm:text-[32px]  font-semibold">Portfolio</h3>
             <div className='text-center'><Devider /></div>
 			<div className="px-5 sm:px-20 ">

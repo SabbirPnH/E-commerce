@@ -3,7 +3,7 @@ import Devider from "../components/Devider";
 import NewsTicker from "./NewsTicker";
 const ServiceContent = () => {
   return (
-    <div className=" py-5  px-5 sm:px-20 dark:bg-gray-800">
+    <div className=" py-5  px-5 sm:px-20">
       <div className="max-w-9xl  flex items-center ">
         <div>
           <h2 className="bg-black text-white py-0.5  px-2 sm:px-5 text-[14px]  ">

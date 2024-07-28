@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const AboutCard = () => {
   return (
-    <section className=" bg-[##FFFFFF] px-5 sm:px-20 light pb-4 pt-6 sm:py-8 md:pt-14  dark:bg-[#0b1727] text-zinc-900 dark:text-white flex items-center overflow-hidden">
+    <section className=" bg-[#FFFFFF] px-5 sm:px-20 light pb-4 pt-6 sm:py-8 md:pt-14   text-zinc-900 dark:text-white flex items-center overflow-hidden">
       <div className="">
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-5  ">
