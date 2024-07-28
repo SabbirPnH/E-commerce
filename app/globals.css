@@ -94,18 +94,7 @@
   background-color: #182b50; 
 }
 
-/* styles/globals.css or a similar CSS file */
 
-.swiper-pagination {
-  display: none; /* Hide pagination by default */
-}
-
-/* Show pagination on devices larger than 640px (sm) */
-@media (min-width: 640px) {
-  .swiper-pagination {
-    display: block;
-  }
-}
 
 
 
